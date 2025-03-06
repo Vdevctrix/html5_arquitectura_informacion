@@ -39,7 +39,7 @@
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <!--Scrips-->
-    <script data-name="list2menu" src=""></script>
+    <script data-name="list2menu" src="/libs/list2menu.js"></script>
     <!--Metadatos-->
     <meta name="generator" content="VSCode" />
     <meta name="rating" content="mature" />
@@ -336,81 +336,83 @@
     </header>
     <main>
       <!--Portada-->
-      <section id="welcome">
-        <h2>Bienvenido al Templo de las Sacrosantas Hostias...</h2>
-        <p>
-          ... desde el que podrás disfrutar de todo el
-          <strong>heavy, frikismo y alcohol</strong> que puedas asimilar
-          mientras devoras nuestras <strong>pizzas</strong>.
-        </p>
-      </section>
-      <section id="communityEvents">
-        <h2>Trae a tus amigos o conoce a otras personas...</h2>
-        <p>
-          ... hazte socio y participa en
-          <strong
-            >quedadas, torneos y concursos de cualquier videojuego o juego de
-            mesa</strong
-          >
-          organizados por ti, dentro de nuestro
-          <strong>restaurante en South city, Namek</strong>.
-        </p>
-        <a href="/other_events"
-          ><img
-            src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
-            alt="Ir a eventos comunitarios"
-            width="24"
-            height="100%"
-        /></a>
-      </section>
-      <section id="mainEvent">
-        <h2>Compite por una de nuestras copas...</h2>
-        <p>
-          ... en nuestra espectacular <strong>MIXUP</strong> con la
-          participación de grupos musicales y comentaristas experimentados.
-        </p>
-        <a href="/mixup"
-          ><img
-            src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
-            alt="Ir a eventos"
-            width="24"
-            height="100%"
-        /></a>
-      </section>
-      <section id="mainDish">
-        <h2>Saborea nuestras hostias...</h2>
-        <p>
-          ...
-          <strong
-            >de pan crujiente, queso fundido e ingredientes de primera</strong
-          >. Charla, ríe y canta en nuestra taberna porque en boca cerrada no
-          entran hostias.
-        </p>
-        <a href="/carta#pizzas"
-          ><img
-            src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
-            alt="Ir a la carta del restaurante (pizzas)"
-            width="24"
-            height="100%"
-        /></a>
-      </section>
-      <section id="communityBlog">
-        <h2>Y comparte tus experiencias...</h2>
-        <p>
-          ... en nuestro
-          <strong
-            >blog sobre las experiencias y opiniones sobre los eventos de
-            nuestro restaurante en South City, Namek</strong
-          >. Basta con hacerte socio y venir a pasarlo bien.
-        </p>
-        <a href="/blog"
-          ><img
-            src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
-            alt="/blog"
-            width="24"
-            height="100%"
-        /></a>
-      </section>
+      <div class="frontPageText">
+        <section id="welcome">
+          <h2>Bienvenido al Templo de las Sacrosantas Hostias...</h2>
+          <p>
+            ... desde el que podrás disfrutar de todo el
+            <strong>heavy, frikismo y alcohol</strong> que puedas asimilar
+            mientras devoras nuestras <strong>pizzas</strong>.
+          </p>
+        </section>
+        <section id="communityEvents">
+          <h2>Trae a tus amigos o conoce a otras personas...</h2>
+          <p>
+            ... hazte socio y participa en
+            <strong
+              >quedadas, torneos y concursos de cualquier videojuego o juego de
+              mesa</strong
+            >
+            organizados por ti, dentro de nuestro
+            <strong>restaurante en South city, Namek</strong>.
+          </p>
+          <a href="/other_events"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
+              alt="Ir a eventos comunitarios"
+              width="24"
+              height="100%"
+          /></a>
+        </section>
+        <section id="mainEvent">
+          <h2>Compite por una de nuestras copas...</h2>
+          <p>
+            ... en nuestra espectacular <strong>MIXUP</strong> con la
+            participación de grupos musicales y comentaristas experimentados.
+          </p>
+          <a href="/mixup"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
+              alt="Ir a eventos"
+              width="24"
+              height="100%"
+          /></a>
+        </section>
+        <section id="mainDish">
+          <h2>Saborea nuestras hostias...</h2>
+          <p>
+            ...
+            <strong
+              >de pan crujiente, queso fundido e ingredientes de primera</strong
+            >. Charla, ríe y canta en nuestra taberna porque en boca cerrada no
+            entran hostias.
+          </p>
+          <a href="/carta#pizzas"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
+              alt="Ir a la carta del restaurante (pizzas)"
+              width="24"
+              height="100%"
+          /></a>
+        </section>
+        <section id="communityBlog">
+          <h2>Y comparte tus experiencias...</h2>
+          <p>
+            ... en nuestro
+            <strong
+              >blog sobre las experiencias y opiniones sobre los eventos de
+              nuestro restaurante en South City, Namek</strong
+            >. Basta con hacerte socio y venir a pasarlo bien.
+          </p>
+          <a href="/blog"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
+              alt="/blog"
+              width="24"
+              height="100%"
+          /></a>
+        </section>
+      </div>
       <!--Horarios-->
       <aside id="schedules">
         <h2>Horarios</h2>
@@ -546,9 +548,8 @@
           </li>
         </ul>
       </div>
-      <div id="copyright">
-        <!--Copyright-->
-      </div>
+      <!--Copyright-->
+      <div id="copyright"></div>
     </footer>
   </body>
 </html>
