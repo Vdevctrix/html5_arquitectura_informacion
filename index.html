@@ -50,6 +50,7 @@
     <!--Scrips-->
     <script data-name="list2menu" src="/libs/list2menu.js"></script>
     <script data-name="lastNew" src="/libs/lastNew.js"></script>
+    <script data-name="redpool" src="/libs/redpool.js"></script>
     <!--Metadatos-->
     <meta name="generator" content="VSCode" />
     <meta name="rating" content="mature" />
@@ -77,24 +78,28 @@
                   height="24"
                 />
               </summary>
-              <a href="https://elmesondelashostias.es/"
-                ><button>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/128/5315/5315832.png"
-                    alt="Bandera de España (Español)."
-                    width="16"
-                    height="16"
-                  /></button
-              ></a>
-              <a href="https://elmesondelashostias.es/en"
-                ><button>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/128/197/197374.png"
-                    alt="Bandera de Reino Unido (English)."
-                    width="16"
-                    height="16"
-                  /></button
-              ></a>
+              <a
+                href="https://elmesondelahostias.es"
+                class="lang-button"
+                title="Versión en español"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/5315/5315832.png"
+                  alt="Bandera de España (Español)."
+                  width="16"
+                  height="16"
+              /></a>
+              <a
+                href="https://elmesondelahostias.es/en"
+                class="lang-button"
+                title="Versión en inglés"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/197/197374.png"
+                  alt="Bandera de Reino Unido (English)."
+                  width="16"
+                  height="16"
+              /></a>
             </details>
           </div>
           <!--Opciones de Usuario-->
@@ -184,11 +189,13 @@
           </div>
           <!--Menú Rápido-->
           <div class="fastMenu">
+            <!--Desplegar/Colapsar
             <button id="menuButton" aria-label="Abrir menú de navegación">
               <div id="1stLine"></div>
               <div id="2ndLine"></div>
               <div id="3rdLine"></div>
             </button>
+            -->
             <ul>
               <li>
                 <a href="/carta"
@@ -425,7 +432,7 @@
               src="https://cdn-icons-png.flaticon.com/128/1828/1828391.png"
               alt="/blog"
               width="24"
-              height="100%"
+              height="24"
           /></a>
         </section>
       </div>
